@@ -1,0 +1,22 @@
+/* Auth System Styles */
+.alert-position {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    min-width: 300px;
+}
+
+/* Navigation styles for auth */
+#loginItem, #registerItem, #dashboardItem, #logoutItem {
+    transition: all 0.3s ease;
+}
+
+/* Modal improvements */
+.modal-backdrop {
+    z-index: 1040;
+}
+
+.modal {
+    z-index: 1050;
+}
